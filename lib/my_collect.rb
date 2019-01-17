@@ -8,4 +8,4 @@ def my_collect(array)
   end
 end
 
-my_collect(1) {|i| #{i.upcase}}
+my_collect(1) {|i| "#{i.upcase}" }
