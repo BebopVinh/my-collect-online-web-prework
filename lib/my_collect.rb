@@ -2,6 +2,8 @@ def my_collect(array)
   i = 0
   new_array = []
 
+  if array.include? (" ")
+    array.sp
   while i < array.size
     yield(array[i])
     new_array << array[i]
@@ -9,11 +11,3 @@ def my_collect(array)
   end
   return new_array
 end
-
-# my_collect("string") do |i|
-#   if i.include?(" ")
-#     i.split(" ").first
-#   else
-#     i.upcase!
-#   end
-# end
