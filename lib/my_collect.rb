@@ -10,7 +10,7 @@ def my_collect(array)
   return new_array
 end
 
-my_collect(1) do |i|
+my_collect(string) do |i|
   if i.include?(" ")
     i.split(" ").first
   else
