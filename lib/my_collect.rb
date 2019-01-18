@@ -10,10 +10,10 @@ def my_collect(array)
   return new_array
 end
 
-my_collect("string") do |i|
-  if i.include?(" ")
-    i.split(" ").first
-  else
-    i.upcase!
-  end
-end
+# my_collect("string") do |i|
+#   if i.include?(" ")
+#     i.split(" ").first
+#   else
+#     i.upcase!
+#   end
+# end
