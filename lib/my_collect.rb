@@ -11,7 +11,7 @@ def my_collect(array)
 end
 
 my_collect(1) do |i|
-  if i.include?(" ")
+  if i.index(" ")
     i.split(" ").first
   else
     i.upcase
