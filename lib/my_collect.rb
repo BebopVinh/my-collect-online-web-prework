@@ -14,6 +14,6 @@ my_collect("string") do |i|
   if i.include?(" ")
     i.split(" ").first
   else
-    i.upcase
+    i.upcase!
   end
 end
